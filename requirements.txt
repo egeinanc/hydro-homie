@@ -1,3 +1,2 @@
 slackclient
-slack~=0.0.2
 python-dotenv~=0.20.0
