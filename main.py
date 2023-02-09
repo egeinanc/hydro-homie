@@ -14,7 +14,7 @@ day_start = 8
 day_end = 22
 
 
-# removes all old messages222
+# removes all old messages2222
 def remove_old_messages():
     messages = client.conversations_history(channel=os.environ['HYDRO_HOMIE_CHANNEL']).data['messages']
     for message in messages:
